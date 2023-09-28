@@ -4,6 +4,9 @@ tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"BetterAFK","color":"gol
 ### AFK Timer ###
 scoreboard objectives add AFK dummy
 
+### Set fake player ###
+scoreboard players set $AFK AFK 0
+
 ### AFK Detection ###
 scoreboard objectives add sneaking minecraft.custom:minecraft.crouch_one_cm
 scoreboard objectives add aviating minecraft.custom:minecraft.aviate_one_cm
